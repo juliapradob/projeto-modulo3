@@ -1,0 +1,12 @@
+Perguntas:
+
+Quantos jogos cada desenvolvedora lançou?
+Qual desenvolvedora lançou os jogos mais caros?
+Qual o gênero tem mais jogos?
+Quais jogos disponibilizam e-mail de suporte? Esses jogos possuem mais avaliações positivas ou negativas?
+Top 10 jogos melhores avaliados
+qual a média de tempo jogada?
+Top 10 jogos piores avaliados
+quais os requisitos mínimos para jogar?
+Qual ano teve mais lançamentos de jogos desde o lançamento da Steam?
+Quais os 10 jogos mais bem avaliados que possuem a tag "RPG", "FPS" e "racing".
