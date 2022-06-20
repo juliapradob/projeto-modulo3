@@ -1,0 +1,1 @@
+-- 1. Quantos jogos cada desenvolvedora lançou?
