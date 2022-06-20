@@ -9,14 +9,14 @@ CREATE TABLE steam (
     `developer` VARCHAR(255) NOT NULL,
     `publisher` VARCHAR(255) NOT NULL,
     `platforms` VARCHAR(255) NOT NULL,
-    `categories` VARCHAR(255) NOT NULL,
-    `genres` VARCHAR(255) NOT NULL,
-    `steamspy_tags` VARCHAR(255) NOT NULL,
+    `categories` TEXT NOT NULL,
+    `genres` TEXT NOT NULL,
+    `steamspy_tags` TEXT NOT NULL,
     `positive_ratings` INTEGER NOT NULL,
     `negative_ratings` INTEGER NOT NULL,
-    `average_playtime` INTEGER NOT NULL,
+    `average_playtime` VARCHAR(255) NOT NULL,
     `owners` VARCHAR(255) NOT NULL,
-    `price` NUMERIC(4 , 2 ) NOT NULL
+    `price` NUMERIC(6 , 2 ) NOT NULL
 );
 
 CREATE TABLE steamspy_data (
