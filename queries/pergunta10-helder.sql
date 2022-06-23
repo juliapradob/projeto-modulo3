@@ -3,7 +3,7 @@ use projeto_final;
 /*PERGUNTA 10 - QUAIS JOGOS POSSUEM MULTIPLAYER?*/
 
 SELECT 
-    categories
+    `name`, categories
 FROM
     steam
 WHERE

@@ -10,3 +10,6 @@ Top 10 jogos piores avaliados
 quais os requisitos mínimos para jogar?
 Qual ano teve mais lançamentos de jogos desde o lançamento da Steam?
 Quais os 10 jogos mais bem avaliados que possuem a tag "RPG", "FPS" e "racing".
+Quais jogos possuem modo Singe-player?
+Quais jogos possuem modo Multiplayer?
+Quais jogos possuem modo Co-op?

@@ -3,7 +3,7 @@ use projeto_final;
 /*PERGUNTA 9 - QUAIS JOGOS POSSUEM SINGLEPLAYER?*/
 
 SELECT 
-    categories
+    `name`, categories
 FROM
     steam
 WHERE

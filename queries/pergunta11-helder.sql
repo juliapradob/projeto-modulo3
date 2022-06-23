@@ -3,7 +3,7 @@ use projeto_final;
 /*PERGUNTA 11 - QUAIS JOGOS POSSUEM CO-OP?*/
 
 SELECT 
-    categories
+    `name`, categories
 FROM
     steam
 WHERE
