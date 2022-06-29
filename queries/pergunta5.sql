@@ -5,7 +5,7 @@ SELECT
     positive_ratings,
     negative_ratings,
     (positive_ratings + negative_ratings) as total_ratings,
-    (negative_ratings / (positive_ratings + negative_ratings) * 100) AS negative_ratings_percentual,    
+    (negative_ratings / (positive_ratings + negative_ratings) * 100) AS negative_ratings_percentage,    
     (positive_ratings - negative_ratings) AS final_rating,    
     average_playtime
 FROM
