@@ -1,6 +1,7 @@
 -- Pergunta 6 - jogos com piores avaliações, que rodam com um processador de no minimo 500mhz
 SELECT 
     steam.name,
+    
     MAX(steam.negative_ratings),
     steam_requirements_data.minimum
 FROM
@@ -10,4 +11,4 @@ FROM
 WHERE
     steam_requirements_data.minimum LIKE '%500 mhz processor%'
 GROUP BY steam.name , steam.negative_ratings , steam_requirements_data.minimum
-ORDER BY MAX(negative_ratings) DESC;
+ORDER BY MAX(steam.negative_ratings) DESC;

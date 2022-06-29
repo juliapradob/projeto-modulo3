@@ -1,8 +1,8 @@
 -- Pergunta 2 - Qual desenvolvedora lançou os jogos mais caros?
-
+use projeto_final;
 SELECT 
-    publisher, MAX(price)
+    developer, MAX(price)
 FROM
     steam
-GROUP BY publisher
+GROUP BY developer
 ORDER BY MAX(price) DESC;
