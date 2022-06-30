@@ -1,6 +1,3 @@
-<h1 align='center'> Projeto Final Módulo 3 - Resilia Educação - Grupo 1 </h1>
-<br>
-
 <img src=/img/imagemCapa.jpg />
 
 <div align='center'>
