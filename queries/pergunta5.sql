@@ -4,9 +4,9 @@ SELECT
     `name`,
     positive_ratings,
     negative_ratings,
-    (positive_ratings + negative_ratings) as total_ratings,
-    (negative_ratings / (positive_ratings + negative_ratings) * 100) AS negative_ratings_percentual,    
-    (positive_ratings - negative_ratings) AS final_rating,    
+    (positive_ratings + negative_ratings) AS total_ratings,
+    (negative_ratings / (positive_ratings + negative_ratings) * 100) AS negative_ratings_percentage,    
+    (positive_ratings - negative_ratings) AS ratings_balance,    
     average_playtime
 FROM
     steam
