@@ -1,10 +1,19 @@
-use projeto_final;
-
-/*PERGUNTA 10 - QUAIS JOGOS POSSUEM MULTIPLAYER?*/
-
 SELECT 
-    `name`, categories
+    *, COUNT(tabela.Categoria) AS total_de_Jogos
 FROM
-    steam
+    (SELECT 
+        CASE
+                WHEN categories LIKE '%single-player%' THEN 'single-player'
+                WHEN categories LIKE '%multiplayer%' THEN 'multiplayer'
+                WHEN categories LIKE '%co-op%' THEN 'co-op'
+                WHEN categories LIKE '%VR support%' THEN 'VR support'
+            END AS Categoria
+    FROM
+        projeto_final.steam) AS tabela
 WHERE
-    categories like '%multiplayer%';
+    tabela.Categoria LIKE 'multiplayer'
+        OR tabela.Categoria LIKE 'co-op'
+        OR tabela.Categoria LIKE 'single-player'
+        OR tabela.Categoria LIKE 'VR support'
+GROUP BY tabela.Categoria
+ORDER BY total_de_Jogos DESC;
