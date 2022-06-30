@@ -1,6 +1,8 @@
 <h1 align='center'> Projeto Final Módulo 3 - Resilia Educação - Grupo 1 </h1>
 <br>
 
+<img src=/img/imagemCapa.jpg />
+
 <div align='center'>
     <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
     <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" />
