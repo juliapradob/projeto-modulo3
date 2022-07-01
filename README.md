@@ -1,7 +1,7 @@
 <h1 align='center'> Projeto Final Módulo 3 - Resilia Educação - Grupo 1 </h1>
 <br>
 
-<img src=/img/imagemCapa.jpg />
+<img src='/img/imagemCapa.jpg /'>
 
 <div align='center'>
     <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
@@ -60,7 +60,9 @@
 </p> 
 
 <p>
-    Na imagem abaixo, por exemplo, temos uma querie que responde à pergunta 10 - Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op? 
+    Na imagem abaixo, por exemplo, temos uma query que responde à pergunta 10 - Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op?:
+</p>
+<img src='/img/queryExemplo.PNG' />
 
 <br>
 
