@@ -49,12 +49,15 @@
 <div>
     <h2> :clipboard: Índice </h2>
     <ul>
-        <a href='#descricao'> :pushpin: Descrição </a><br>
-        <a href='#funcionalidades'> :pushpin: Funcionalidades </a><br>
-        <a href='#preReqs'> :pushpin: Pré-requisitos </a><br>
-        <a href='#rodar'> :pushpin: Rodando projeto </a>
+        <a href='#descricao'> :pushpin: Descrição </a> <br>
+        <a href='#funcionalidades'> :pushpin: Funcionalidades </a> <br>
+        <a href='#preReqs'> :pushpin: Pré-requisitos </a> <br>
+        <a href='#rodar'> :pushpin: Rodando projeto </a> <br>
+        <a href='#tecnologias'> :pushpin: Tecnologias </a> <br>
+        <a href='#contribuidores'> :pushpin: Contribuidores </a>
     </ul>
 </div>
+<br>
 
 <h2 id='funcionalidades'> :wrench: Funcionalidades do Projeto </h2>
 
@@ -74,7 +77,7 @@
 
 <div>
     <p>
-        Para conseguir rodar as queryes e visualizar os dados, você precisará ter instaladas no seu computador as seguintes ferramentas:
+        Para conseguir rodar as queries e visualizar os dados, você precisará ter instaladas no seu computador as seguintes ferramentas:
     </p>
     <ul>
         <li> Git: (https://git-scm.com) </li>
@@ -93,5 +96,45 @@
     <p> :arrow_right: Depois, vá até a pasta 'data' e execute no Workbench cada um dos arquivos, para popular as tabelas criadas </p>
     <p> :arrow_right: Finalmente, acesse a pasta 'queries' e execute aquelas que tiver curiosidade! </p>    
 </ul>
+<br>
+
+<h2 id='tecnologias'> :hammer_and_wrench: Tecnologias </h2>
+
+<p> Utilizamos as seguintes ferramentas para construir o projeto: </p>
+
+- [MySQL](https://www.mysql.com/)
+- [VS Code](https://code.visualstudio.com/)
+<br>
+
+<h2 id='contribuidores'> Contribuidores </h2>
+
+<table align='center'>
+    <tr>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Allan Barboza </a></b>
+            </sub>
+        </td>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Helder Lucas </a></b>
+            </sub>
+        </td>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Filipe Alves </a></b>
+            </sub>
+        </td>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Julia Prado </a></b>
+            </sub>
+        </td>
+    </tr>
+</table>
 
 
