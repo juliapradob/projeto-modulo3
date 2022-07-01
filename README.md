@@ -50,7 +50,9 @@
     <h2> :clipboard: Índice </h2>
     <ul>
         <a href='#descricao'> :pushpin: Descrição </a><br>
-        <a href='#funcionalidades'> :pushpin: Funcionalidades </a>
+        <a href='#funcionalidades'> :pushpin: Funcionalidades </a><br>
+        <a href='#preReqs'> :pushpin: Pré-requisitos </a><br>
+        <a href='#rodar'> :pushpin: Rodando projeto </a>
     </ul>
 </div>
 
@@ -68,7 +70,7 @@
 </div>
 <br>
 
-<h2> :desktop_computer: Pré-requisitos </h2>
+<h2 id='preReqs'> :desktop_computer: Pré-requisitos </h2>
 
 <div>
     <p>
@@ -79,13 +81,17 @@
         <li> MySQL: (https://dev.mysql.com/downloads/) (principalmente o MySQL Workbench e MySQL Server) </li>
     </ul>
 </div>
-    
+<br>
 
+<h2 id='rodar'> :runner: Rodando o Projeto </h2>
 
-
-
-<h2> :card_index_dividers: Acesso ao projeto </h2> 
-
-<p> Para acessar o projeto em sua máquina
+<ul> 
+    <p> :arrow_right: Realize o clone deste repositório com o comando $ git clone https://github.com/juliapradob/projeto-modulo3.git </p>
+    <p> :arrow_right: Inicie o MySQL Workbench </p>
+    <p> :arrow_right: Vá até o diretório em que clonou os arquivos do projeto e abra a pasta 'schema' </p>
+    <p> :arrow_right: Execute o arquivo 'steam_schema.sql' no MySQL Workbench para criar a database e suas tabelas</p>
+    <p> :arrow_right: Depois, vá até a pasta 'data' e execute no Workbench cada um dos arquivos, para popular as tabelas criadas </p>
+    <p> :arrow_right: Finalmente, acesse a pasta 'queries' e execute aquelas que tiver curiosidade! </p>    
+</ul>
 
 
