@@ -49,17 +49,18 @@
 <div>
     <h2> :clipboard: Índice </h2>
     <ul>
-        <a href='#descricao'> :pushpin: Descrição </a>
+        <a href='#descricao'> :pushpin: Descrição </a><br>
+        <a href='#funcionalidades'> :pushpin: Funcionalidades </a>
     </ul>
 </div>
 
-<h2> :wrench: Funcionalidades do Projeto </h2>
+<h2 id='funcionalidades'> :wrench: Funcionalidades do Projeto </h2>
 
 <p>
     As funcionalidades do projeto são referentes às queries que elaboramos para responder às perguntas listadas acima. Assim, cada querie pode ser considerada uma         funcionalidade.
 </p> 
 
-<div align='center'>
+<div>
     <p>
         Na imagem abaixo, por exemplo, temos uma query que responde à pergunta 10 - Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op?:
     </p>
