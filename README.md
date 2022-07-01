@@ -66,8 +66,23 @@
     </p>
     <img  src='/img/queryExemplo.PNG' />
 </div>
-
 <br>
+
+<h2> :desktop_computer: Pré-requisitos </h2>
+
+<div>
+    <p>
+        Para conseguir rodar as queryes e visualizar os dados, você precisará ter instaladas no seu computador as seguintes ferramentas:
+    </p>
+    <ul>
+        <li> Git: (https://git-scm.com) </li>
+        <li> MySQL: (https://dev.mysql.com/downloads/) (principalmente o MySQL Workbench e MySQL Server) </li>
+    </ul>
+</div>
+    
+
+
+
 
 <h2> :card_index_dividers: Acesso ao projeto </h2> 
 
