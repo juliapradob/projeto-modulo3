@@ -39,7 +39,7 @@
       5. Quais os 10 jogos melhor avaliados? <br> <img src='./img/top10_avaliacoes.jpg'> <img src='./img/avaliacoes_negativas_top10.jpg'>
       6. Qual média de tempo jogado de cada um? <br> <img src='./img/média_top10.jpg'>
       7. Quais os 10 jogos pior avaliados? <br> <img src='./img/top10_piores.jpg'>
-      8. Quais jogos que possuem requisitos recomendados considerados mid-end? <br> <img src='./img/negativas_top10.jpg'>
+      8. Quais jogos que possuem requisitos recomendados considerados mid-end? <br> <img src='./img/avaliacoes_negativas_top10.jpg'>
       9. Quais os 10 jogos mais bem avaliados que possuem a tag "RPG", "FPS" e "racing". <br> <img src='./img/top10_rpg.jpg'> <img src='./img/top10_fps.jpg'> <img src='./img/top10_racing.jpg'>
       10. Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op? <img src='./img/modos_jogo.jpg'>
     </p>
