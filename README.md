@@ -25,7 +25,9 @@
 </p>
 <br>
 
-<p> :white_check_mark: Optamos por trabalhar com o banco de dados da Steam, e abaixo estão as perguntas que elaboramos para serem extraídas e analisadas: <p>
+<p> 
+    :white_check_mark: Optamos por trabalhar com o banco de dados da Steam, e abaixo estão as perguntas que elaboramos para serem extraídas e analisadas:
+</p>
 
 <div>
     <p> 
@@ -44,4 +46,13 @@
 
 <h2> :wrench: Funcionalidades do Projeto </h2>
 
-<p> As funcionalidades do projeto são referentes às queries que elaboramos para responder às perguntas listadas acima. Assim, cada querie pode ser considerada uma funcionalidade. </p>    
+<p>
+    As funcionalidades do projeto são referentes às queries que elaboramos para responder às perguntas listadas acima. Assim, cada querie pode ser considerada uma         funcionalidade.
+</p> 
+<br>
+
+<h2> :card_index_dividers: Acesso ao projeto </h2> 
+
+<p> Para acessar o projeto em sua máquina
+
+
