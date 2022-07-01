@@ -1,7 +1,7 @@
 <h1 align='center'> Projeto Final Módulo 3 - Resilia Educação - Grupo 1 </h1>
 <br>
 
-<img src='/img/imagemCapa.jpg /'>
+<img src='./img/imagemCapa.jpg'>
 
 <div align='center'>
     <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
@@ -32,16 +32,16 @@
 
 <div>
     <p> 
-      1. Quantos jogos cada desenvolvedora lançou? <br>
-      2. Qual desenvolvedora lançou os jogos mais caros? <br> 
-      3. Qual gênero tem mais jogos? <br>
-      4. Quais jogos disponibilizam e-mail de suporte? Esses jogos possuem mais avaliações positivas ou negativas? <br>
-      5. Quais os 10 jogos melhor avaliados?
-      6. Qual média de tempo jogado de cada um? <br>
-      7. Quais os 10 jogos pior avaliados? <br>
-      8. Quais jogos que possuem requisitos recomendados considerados mid-end? <br>
-      9. Quais os 10 jogos mais bem avaliados que possuem a tag "RPG", "FPS" e "racing". <br>
-      10. Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op? 
+      1. Quantos jogos cada desenvolvedora lançou? <br> <img src='./img/jogos_desenvolvedora.jpg'>
+      2. Qual a média de preço dos jogos? <br> <img src='./img/média_preço.jpg'>
+      3. Qual gênero tem mais jogos? <br> <img src='./img/genero_popular.jpg'>
+      4. Quais jogos disponibilizam e-mail de suporte? Esses jogos possuem mais avaliações positivas ou negativas? <br> <img src='./img/top20_suporte.jpg'>
+      5. Quais os 10 jogos melhor avaliados? <br> <img src='./img/top10_avaliacoes.jpg'> <img src='./img/avaliacoes_negativas_top10.jpg'>
+      6. Qual média de tempo jogado de cada um? <br> <img src='./img/média_top10.jpg'>
+      7. Quais os 10 jogos pior avaliados? <br> <img src='./img/top10_piores.jpg'>
+      8. Quais jogos que possuem requisitos recomendados considerados mid-end? <br> <img src='./img/negativas_top10.jpg'>
+      9. Quais os 10 jogos mais bem avaliados que possuem a tag "RPG", "FPS" e "racing". <br> <img src='./img/top10_rpg.jpg'> <img src='./img/top10_fps.jpg'> <img src='./img/top10_racing.jpg'>
+      10. Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op? <img src='./img/modos_jogo.jpg'>
     </p>
 </div>
 <br>
@@ -69,7 +69,7 @@
     <p>
         Na imagem abaixo, por exemplo, temos uma query que responde à pergunta 10 - Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op?:
     </p>
-    <img  src='/img/queryExemplo.PNG' />
+    <img  src='./img/queryExemplo.PNG' />
 </div>
 <br>
 
@@ -113,25 +113,25 @@
         <td align="center">
             <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
             <sub>
-                <b><a href='LINK_PERFIL_AQUI'> Allan Barboza </a></b>
+                <b><a href='https://github.com/AllanBarbozaG'> Allan Barboza </a></b>
             </sub>
         </td>
         <td align="center">
             <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
             <sub>
-                <b><a href='LINK_PERFIL_AQUI'> Helder Lucas </a></b>
+                <b><a href='https://github.com/devhelderlrs'> Helder Lucas </a></b>
             </sub>
         </td>
         <td align="center">
             <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
             <sub>
-                <b><a href='LINK_PERFIL_AQUI'> Filipe Alves </a></b>
+                <b><a href='https://github.com/lipeqalves'> Filipe Alves </a></b>
             </sub>
         </td>
         <td align="center">
             <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
             <sub>
-                <b><a href='LINK_PERFIL_AQUI'> Julia Prado </a></b>
+                <b><a href='https://github.com/juliapradob'> Julia Prado </a></b>
             </sub>
         </td>
     </tr>
