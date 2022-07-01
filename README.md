@@ -59,10 +59,12 @@
     As funcionalidades do projeto são referentes às queries que elaboramos para responder às perguntas listadas acima. Assim, cada querie pode ser considerada uma         funcionalidade.
 </p> 
 
-<p>
-    Na imagem abaixo, por exemplo, temos uma query que responde à pergunta 10 - Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op?:
-</p>
-<img src='/img/queryExemplo.PNG' />
+<div align='center'>
+    <p>
+        Na imagem abaixo, por exemplo, temos uma query que responde à pergunta 10 - Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op?:
+    </p>
+    <img  src='/img/queryExemplo.PNG' />
+</div>
 
 <br>
 
