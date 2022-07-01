@@ -1,13 +1,14 @@
-<img src=/img/imagemCapa.jpg />
+<h1 align='center'> Projeto Final Módulo 3 - Resilia Educação - Grupo 1 </h1>
+<br>
+
+<img src='/img/imagemCapa.jpg /'>
 
 <div align='center'>
     <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
     <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" />
 </div>
 
-
-
-<h2> Descrição </h2>
+<h2 id='descricao'> Descrição </h2>
 
 <h3 align='center'>
     :point_right: O objetivo deste projeto é aplicar os conhecimentos adquiridos ao longo do módulo 3 da Formação Web. Dev. Fullstack da Resilia Educação.
@@ -25,7 +26,9 @@
 </p>
 <br>
 
-<p> :white_check_mark: Optamos por trabalhar com o banco de dados da Steam, e abaixo estão as perguntas que elaboramos para serem extraídas e analisadas: <p>
+<p> 
+    :white_check_mark: Optamos por trabalhar com o banco de dados da Steam, e abaixo estão as perguntas que elaboramos para serem extraídas e analisadas:
+</p>
 
 <div>
     <p> 
@@ -33,15 +36,105 @@
       2. Qual desenvolvedora lançou os jogos mais caros? <br> 
       3. Qual gênero tem mais jogos? <br>
       4. Quais jogos disponibilizam e-mail de suporte? Esses jogos possuem mais avaliações positivas ou negativas? <br>
-      5. Quais os 10 jogos melhor avaliados e a média de tempo jogado de cada um? <br>
-      6. Quais os 10 jogos pior avaliados? <br>
-      7. Quais jogos que possuem requisitos recomendados considerados mid-end? <br>
-      8. Quais os 10 jogos mais bem avaliados que possuem a tag "RPG", "FPS" e "racing". <br>
-      9. Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op?
+      5. Quais os 10 jogos melhor avaliados?
+      6. Qual média de tempo jogado de cada um? <br>
+      7. Quais os 10 jogos pior avaliados? <br>
+      8. Quais jogos que possuem requisitos recomendados considerados mid-end? <br>
+      9. Quais os 10 jogos mais bem avaliados que possuem a tag "RPG", "FPS" e "racing". <br>
+      10. Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op? 
     </p>
 </div>
 <br>
 
-<h2> :wrench: Funcionalidades do Projeto </h2>
+<div>
+    <h2> :clipboard: Índice </h2>
+    <ul>
+        <a href='#descricao'> :pushpin: Descrição </a> <br>
+        <a href='#funcionalidades'> :pushpin: Funcionalidades </a> <br>
+        <a href='#preReqs'> :pushpin: Pré-requisitos </a> <br>
+        <a href='#rodar'> :pushpin: Rodando projeto </a> <br>
+        <a href='#tecnologias'> :pushpin: Tecnologias </a> <br>
+        <a href='#contribuidores'> :pushpin: Contribuidores </a>
+    </ul>
+</div>
+<br>
 
-<p> As funcionalidades do projeto são referentes às queries que elaboramos para responder às perguntas listadas acima. Assim, cada querie pode ser considerada uma funcionalidade. </p>    
+<h2 id='funcionalidades'> :wrench: Funcionalidades do Projeto </h2>
+
+<p>
+    As funcionalidades do projeto são referentes às queries que elaboramos para responder às perguntas listadas acima. Assim, cada querie pode ser considerada uma         funcionalidade.
+</p> 
+
+<div>
+    <p>
+        Na imagem abaixo, por exemplo, temos uma query que responde à pergunta 10 - Quantos jogos possuem modo A - Single Player, B - Multi-Player e C - Co-op?:
+    </p>
+    <img  src='/img/queryExemplo.PNG' />
+</div>
+<br>
+
+<h2 id='preReqs'> :desktop_computer: Pré-requisitos </h2>
+
+<div>
+    <p>
+        Para conseguir rodar as queries e visualizar os dados, você precisará ter instaladas no seu computador as seguintes ferramentas:
+    </p>
+    <ul>
+        <li> Git: (https://git-scm.com) </li>
+        <li> MySQL: (https://dev.mysql.com/downloads/) (principalmente o MySQL Workbench e MySQL Server) </li>
+    </ul>
+</div>
+<br>
+
+<h2 id='rodar'> :runner: Rodando o Projeto </h2>
+
+<ul> 
+    <p> :arrow_right: Realize o clone deste repositório com o comando $ git clone https://github.com/juliapradob/projeto-modulo3.git </p>
+    <p> :arrow_right: Inicie o MySQL Workbench </p>
+    <p> :arrow_right: Vá até o diretório em que clonou os arquivos do projeto e abra a pasta 'schema' </p>
+    <p> :arrow_right: Execute o arquivo 'steam_schema.sql' no MySQL Workbench para criar a database e suas tabelas</p>
+    <p> :arrow_right: Depois, vá até a pasta 'data' e execute no Workbench cada um dos arquivos, para popular as tabelas criadas </p>
+    <p> :arrow_right: Finalmente, acesse a pasta 'queries' e execute aquelas que tiver curiosidade! </p>    
+</ul>
+<br>
+
+<h2 id='tecnologias'> :hammer_and_wrench: Tecnologias </h2>
+
+<p> Utilizamos as seguintes ferramentas para construir o projeto: </p>
+
+- [MySQL](https://www.mysql.com/)
+- [VS Code](https://code.visualstudio.com/)
+<br>
+
+<h2 id='contribuidores'> Contribuidores </h2>
+
+<table align='center'>
+    <tr>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Allan Barboza </a></b>
+            </sub>
+        </td>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Helder Lucas </a></b>
+            </sub>
+        </td>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Filipe Alves </a></b>
+            </sub>
+        </td>
+        <td align="center">
+            <img style="border-radius: 50%;" src="FOTOAQUI" width="100px;" alt=""/><br/>
+            <sub>
+                <b><a href='LINK_PERFIL_AQUI'> Julia Prado </a></b>
+            </sub>
+        </td>
+    </tr>
+</table>
+
+
